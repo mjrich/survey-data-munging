@@ -1,3 +1,12 @@
+library("foreign")
+Sys.setenv(NOAWT=1)
+library("Deducer")
+
+#If needs to be removed: Sys.unsetenv("NOAWT")
+
+library("Hmisc")
+library("doBy")
+
 #START
 #Script for checking variables
 #
